@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome To My Portfolio</title>
+	<style>
+		/* Important!!!, keep them so the site doesn't have extra margin on mobile devices */
+		html, body{
+			overflow-x: hidden;
+			margin: 0;
+			padding: 0;
+			max-width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+
+<!--- Start Home Section -->
+
+<div id="home">
+	<nav>
+		<div class="hamburger">
+			<div class="line l1"></div>
+			<div class="line l2"></div>
+			<div class="line l3"></div>
+		</div>
+
+		<ul class="nav-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#howitworks">How It Works</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<!-- End Navigation bar -->
+
+	<!-- Landing Page -->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+				<ul class="circles">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+   <!-- Typed animation -->
+	<div class="caption text-center" >
+		<h3>Welcome to my portfolio</h3>
+		<div id="typed-string"></div>
+		<span id="typed"></span>
+		<div id="typed2"></div>
+	</div>
+
+</div>
+<!-- Wnd of the Home section -->
+
+<hr class="seperator">
+
+<!-- Start of about -->
+	<section class="about" id="about">
+		<div class="container">
+				<div class="vline"></div>
+			<div class="profile-img">
+				<div class="skill1">
+					<ul>
+						<li><span class="html5"><em>HTML/CSS</em></span></li>
+						<li><span class="bootstrap"><em>Bootstrap</em></span></li>
+						<li><span class="javascript"><em>JavaScript</em></span></li>
+						<li><span class="nodejs"><em>Node.js</em></span></li>
+						<li><span class="python"><em>Python</em></span></li>
+						<li><span class="cplusplus"><em>C/C++</em></span></li>
+					</ul>
+					
+				</div>
+				<div class="skill2">
+					<ul>
+						<li><span class="jquery"><em>jQuery</em></span></li>
+						<li><span class="reactjs"><em>ReactJS</em></span></li>
+						<li><span class="php"><em>PHP</em></span></li>
+						<li><span class="laravel"><em>Laravel</em></span></li>
+						<li><span class="dotnet"><em>.Net</em></span></li>
+						<li><span class="java"><em>Java</em></span></li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="about-details" data-aos="fade-left" data-aos-duration="1500">
+				 <div class="about-heading">
+					<h1>About</h1>
+					<h6>Me</h6>
+				</div>
+				<p>
+					I started programming in 2001 and from there I have been building up my experience and knowledge everyday. 
+					I got my Bachelor degree in Software Engineering and later on added a Master's to that from TUC, Germany. I am absolutely excited about everything tech-related,
+					 I program for fun and spend my free times learning about new technologies and developing new apps. 
+					 <br><br>
+					 I have extensive experience in Web development, I consider myself a fullstack developer. 
+					 I can build the app from scratch to the deployment stage. I developed this website without using any CSS framework like Bootstrap and without using any themes or ready-made solutions. On top of Web development, I have experience with Machine Learning, Embedded Systems, and Desktop applications.    
+				</p> 
+			</div>
+		</div>
+	</section> 
+
+	<hr class="seperator">
+
+<!-- Portfolio section -->
+	<section class="portfolio" id="portfolio">
+		<div class="sectitle">Portfolio</div>
+		
+			<div class="projects-wrapper">
+				
+				<div class="project" data-aos="zoom-in">
+					<div class="project-container">
+						<img src="img/microservices.png" alt="">
+						<div class="fade_line"></div> 
+						<div class="project-title">
+							<h1>Microservices-Based App</h1>
+						</div>
+						<div class="project-content">
+								<p>12 unique microservices were developed to serve the backend of a Blog. The microservices were developed with Node.js and Express.js.
+								There were 5 different databases to help the microservices store the data. This helped in achieving better level of autonomy for the microservices.</p>
+						</div>
+	
+						<span class="card-meta">
+							<i class="fab fa-github fa-2x"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="project" data-aos="zoom-in" >
+					<div class="project-container">
+						<img src="img/pigui.png" alt="" id="gui">
+						<div class="fade_line"></div> 
+						<div class="project-title">
+							<h1>Web App on Raspberry pi</h1>
+						</div>
+						<div class="project-content">
+							<p>A modular Web-based app to help monitor the statistics of a car.
+									A research project for the internship in TUC. The app Uses AJAX to provide users with real-time data. The app is designed to run on a Raspberry pi computer.
+										The app was developed with HTML/CSS, JavaScript and PHP.
+										
+							</p>
+						</div>
+	
+						<span class="card-meta">
+							<i class="fab fa-github fa-2x"></i>
+						</span>
+					</div>
+				</div>
+
+
+				<div class="project" data-aos="zoom-in" >
+					<div class="project-container">
+						<img src="img/restaurantapi.png" alt="">
+						<div class="fade_line"></div> 
+						<div class="project-title">
+							<h1>Microservices-Based App</h1>
+						</div>
+						<div class="project-content">
+							<p>
+								REST API-based app to help manage a Restaurant business, developed with Laravel in the backend and HTML/CSS and JavaScript in the frontend.
+							</p>
+						</div>
+						<span class="card-meta">
+							<i class="fab fa-github fa-2x"></i>
+						</span>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<hr class="seperator">
+
+<!-- How it works-->
+<div class="howitworks" id="howitworks">
+	<div class="sectitle">How It Works</div>
+	<div class="timeline">
+		
+		<div class="tlcontainer left"  >
+			<div class="tlcontent" data-aos="fade-left">
+				<h2>Get in Touch</h2>
+				<p>I receive an Email from you telling me what you have in mind...</p>
+			</div>
+			<span ><i class="fa fa-edit fa-2x circle-icon tlicons"></i></span>
+		</div>
+
+		<div class="tlcontainer right" >
+			<div class="tlcontent" data-aos="fade-right" data-aos-delay="500">
+				<h2>Communication</h2>
+				<p>We start discussing your Ideas...</p>
+			</div>
+			<span ><i class="far fa-comments fa-2x circle-icon tlicons"></i></span>
+		</div>
+
+		<div class="tlcontainer left" >
+			<div class="tlcontent" data-aos="fade-left" data-aos-delay="800">
+				<h2>Agreement</h2>
+				<p>I understand exactly what you want. We reach an agreement and 
+					 set a work timeline and a payment plan... </p>
+			</div>
+			<span><i class="far fa-handshake fa-2x circle-icon tlicons"></i></span>
+		</div>
+
+		<div class="tlcontainer right" >
+			<div class="tlcontent" data-aos="fade-right" data-aos-delay="1200">
+				<h2>Development</h2>
+				<p>I start developing our project...</p>
+			</div>
+			<span>
+				<i class="fas fa-code fa-2x circle-icon tlicons"></i></span>
+		</div>
+
+		<div class="tlcontainer left" >    
+			<div class="tlcontent" data-aos="fade-left" data-aos-delay="1400">
+				<h2>Delivery & Support</h2>
+				<p>I deliver the App on time, and offer you support according to our agreement. We are both happy :)</p>
+			</div>
+			<span><i class="fas fa-truck fa-2x circle-icon tlicons"></i></span>
+		</div>
+
+	</div>
+	
+	<div class="howitworksend"></div>
+</div>
+
+<hr class="seperator">
+
+<!-- Contact US -->
+
+<section class="contactus" id="contact">
+	<div class="contactuswrapper">
+		<div class="title">Contact Us</div>
+
+		<form class="form" name="contact" method="POST" data-netlify="true" data-aos="zoom-in">
+			<input type="text" name="name" class="name entry" placeholder="Your Name">
+			<input type="email" name="email" class="email entry" placeholder="Email">
+			<textarea name="message" class="message entry" placeholder="Message"></textarea>
+			<button class="submit entry">Submit</button>
+		</form>
+
+		<div class="shadow"></div>
+	</div>
+</section>
+
+<section class="footer">
+	<div class="footer-wrapper">
+		<h4>&copy; 2019</h4>
+		<p>Made with ❤️ </p>
+	</div>
+</section>
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/app.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
+
+
+
